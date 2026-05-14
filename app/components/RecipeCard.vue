@@ -11,6 +11,10 @@ defineProps<{
     author?: string
   }
 }>()
+
+const emit = defineEmits<{
+  (e: 'tag-click', tag: string): void
+}>()
 </script>
 
 <template>
@@ -26,7 +30,7 @@ defineProps<{
     </div>
     <div v-if="recipe.author" class="recipe-card__author">By {{ recipe.author }}</div>
     <div v-if="recipe.tags?.length" class="tags">
-      <span v-for="tag in recipe.tags" :key="tag" class="tag">{{ tag }}</span>
+      <span v-for="tag in recipe.tags" :key="tag" class="tag tag--clickable" @click.prevent.stop="emit('tag-click', tag)">{{ tag }}</span>
     </div>
   </NuxtLink>
 </template>
