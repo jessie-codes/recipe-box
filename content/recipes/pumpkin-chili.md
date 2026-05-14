@@ -5,7 +5,7 @@ servings: 4
 prepTime: 10 minutes
 cookTime: 4 hours
 tags: [dinner, slow cooker, chili]
-author: Jessie Barnett
+author: Jessie B
 ---
 
 ## Ingredients

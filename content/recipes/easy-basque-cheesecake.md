@@ -5,7 +5,7 @@ servings: 8
 prepTime: 10 minutes
 cookTime: 50 minutes
 tags: [dessert, baking, cheesecake]
-author: Jessie Barnett
+author: Jessie B
 ---
 
 ## Ingredients
