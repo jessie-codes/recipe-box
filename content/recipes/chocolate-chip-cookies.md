@@ -10,7 +10,7 @@ author: Jessie Barnett
 
 ## Ingredients
 
-- 8 1/2 cups all-purpose flour
+- 3 1/2 cups all-purpose flour
 - 1 tsp baking soda
 - 1 tsp salt
 - 1 cup (2 sticks) unsalted butter, softened
